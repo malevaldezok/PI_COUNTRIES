@@ -1,0 +1,23 @@
+
+.containerCountries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerHome {
+    background-image: url('https://images7.alphacoders.com/987/thumb-1920-987066.jpg');
+    background-size: cover contain;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+
+}
+
+
+

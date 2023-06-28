@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+.containerNav {
+    width: 100%;
+    text-align: center;
+}
+
+.hr {
+  border: .1rem solid #19381F;
+  width: 80%;
+  margin-top: -1.5rem;
+  }
+
+  .divh1 {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: -1.5rem;
+}
+
+.barraNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 1rem 
+}
+
+.subtitleh1 {
+    width:fit-content;
+    color: #EEE82C ;
+    border-radius: 1rem;
+    padding: .2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    background-color: #19381F;
+}
+
+.sortBy {
+    .p {
+    font-size: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;;
+    color: beige;
+    font-weight: bolder;
+    background-color: #19381F;
+    opacity: 80%;
+    border-radius: 1rem;
+    border: 1px solid beige;
+    width: 6rem;
+    margin-left: 7.5rem;
+    padding: .5rem;
+    align-items: center;
+}
+.select {
+  margin-top: -1rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-family: 'Albert Sans', sans-serif;;
+  }
+}
+
+  
+  .filter .p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: beige;
+    font-weight: bolder;
+    background-color: #19381F;
+    border: 1px solid beige;
+    opacity: 80%;
+    border-radius: 1rem;
+    width: 15rem;
+    margin-left: 3rem;
+    padding: .5rem;
+    align-items: center;
+  }
+  
+  .filter .select {
+    background-color: rgb(245, 245, 157);
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+    padding: .5rem;
+    font-family: 'Albert Sans', sans-serif;;
+    margin-left: 2.2rem;
+  }
+  
+  .act {
+    margin-top: .5rem;
+    padding: 3rem;
+  }
+  
+  .act .labelAct {
+    color: beige;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;;
+    padding: 8rem;
+  }
+  
+  .act .buttonSearch {
+    border-radius: .5rem;
+    padding: .2rem;
+    border: 2px solid beige;
+    color: beige;
+    background-color: #19381F;
+    font-size: 1rem;
+    opacity: 80%;
+    font-family: 'Albert Sans', sans-serif;;
+  }
+  
+  .act .input {
+    width: 20rem;
+    padding: .2rem;
+    font-family: 'Albert Sans', sans-serif;;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: 1px solid #19381F;
+    margin-top: 1.5rem;
+  }
+
+  .activities {
+    padding-top: 4.8rem;
+    .button {
+        border-radius: 1rem;
+    padding: .5rem;
+    font-family: 'Albert Sans', sans-serif;
+    border: 1px solid beige;
+    font-size: 1.5rem;
+    color: beige;
+    background-color: #19381F;
+    opacity: 80%;
+    }
+  }
+
+  .p{
+    font-family: 'Albert Sans', sans-serif;
+    border-radius: .5rem;
+    background-color: #19381F;
+    opacity: 90%;
+    color: beige;
+  }
+

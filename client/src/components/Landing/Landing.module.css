@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@900&display=swap');
+.containerLanding {
+    background-image: url('https://e0.pxfuel.com/wallpapers/875/443/desktop-wallpaper-close-up-of-globe-%C2%B7-stock-earth-globe.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.containerh1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: normal;
+    padding-bottom: 10rem;
+    padding-left: 3rem;
+    
+}
+
+.subtitleh1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: normal;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Albert Sans', sans-serif;
+    color: #FBAF00;
+    background-color: #F2F3AE;
+    border-radius: 2rem;
+    padding: 1rem;
+    opacity: 80%;
+}
+.subtitleh2 {
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+
+}
+.subtitleh3 {
+    font-size:x-large;
+    font-family: 'Albert Sans', sans-serif;
+    color: black;
+    background-color: #FBAF00;
+    position: inherit;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.containerLink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: normal;
+    padding-top: 20rem;
+    color: rgb(243, 243, 99);
+}

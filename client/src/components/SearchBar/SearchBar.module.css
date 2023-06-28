@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+
+.divSearchBar {
+    padding-top: 5rem;
+}
+
+.input {
+    width: 20rem;
+    padding: .2rem;
+    border-radius: .5rem;
+    border: 1px solid #19381F;
+    font-size: 1rem;
+    font-family: 'Albert Sans', sans-serif;;
+}
+
+    .btn {
+        border-radius: .5rem;
+        padding: .2rem;
+        border: 2px solid beige;
+        font-size: 1rem;
+        background-color: #19381F;
+        color: beige;
+        opacity: 80%;
+        font-family: 'Albert Sans', sans-serif;;
+    }

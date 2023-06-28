@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+.errorForm {
+  color: crimson;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.btnback {
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-family: 'Albert Sans', sans-serif;
+  background-color: #19381F;
+  color: beige;
+  border: 1px solid beige;
+  opacity: 80%;
+}
+
+.containerForm {
+  background-image: url('https://images7.alphacoders.com/987/thumb-1920-987066.jpg');
+    background-size: cover contain;
+    padding-top: 1rem;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    gap: 1rem;
+    color: beige;
+    font-size: rem;
+    font-weight: bold;
+}
+
+.subtitleh2 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Albert Sans', sans-serif;
+  opacity: 80%;
+  color: beige;
+  margin-top: -1rem;
+}
+
+.subtitleh3 {
+  text-align: center;
+  font-family: 'Albert Sans', sans-serif;
+  opacity: 80%;
+  color: beige;
+  font-size: 1rem;
+}
+
+.cardForm {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-color: #19381F;
+    opacity: 85%;
+    border-radius: 1rem;
+    width: 45rem;
+    padding: 1rem;
+    margin-top: -3rem;
+}
+
+.labelForm {
+  font-family: 'Albert Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .4rem;
+    font-size: 1.5rem;
+}
+
+.btnSubmit {
+  border-radius: .5rem;
+    padding: .2rem;
+    border-color: RGBA(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;
+    background-color: #19381F;
+    color: beige;
+    border: 2px solid beige;
+}
+
+.inputForm {
+  width: 20rem;
+    font-family: 'Albert Sans', sans-serif;;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: 1px solid #19381F;
+}
+
+.li {
+  text-align: center;
+  font-family: 'Albert Sans', sans-serif;
+  color: beige;
+}
+
+.select {
+  background-color: rgb(245, 245, 157);
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: #19381F;
+    font-weight: bold;
+    padding: .5rem;
+    font-family: 'Albert Sans', sans-serif;;
+}

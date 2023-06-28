@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+.cardCountries {
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: stretch;
+    padding: 10rem;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: flex-end;
+  padding-top: 1rem;
+}
+
+.pageInfo {
+  font-family: 'Albert Sans', sans-serif;
+  background-color: #19381F;
+  opacity: 95%;
+  font-weight: bold;
+  color:beige;
+  border-radius: 1rem;
+  border: .1rem solid beige;
+  padding: .5rem;
+}
+
+.buttonPage {
+  background-color: #19381F;
+  opacity: 88%;
+  border-radius: 1rem;
+  color: beige;
+  border: .1rem solid beige;
+  font-size: 1rem;
+}

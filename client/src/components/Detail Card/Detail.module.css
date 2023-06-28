@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&display=swap');
+
+.containerDetail {
+    background-image: url('https://images7.alphacoders.com/987/thumb-1920-987066.jpg');
+    background-size: cover contain;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    gap: 1rem;
+}
+
+.btnback {
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: 'Albert Sans', sans-serif;
+    background-color: #19381F;
+    color: beige;
+    border: 1px solid beige;
+    opacity: 80%;
+}
+
+.cardDetail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-color: #19381F;
+    opacity: 85%;
+    border-radius: 1rem;
+    border: 2px solid beige;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.subtitleh1 {
+    font-family: 'Albert Sans', sans-serif;;
+    font-size: 5rem;
+    color:beige;
+    margin-top: -1rem;
+}
+.subtitleh2 {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: #19381F;
+    opacity: 85%;
+    border: 1px solid beige;
+    color: beige;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.subtitleh4 {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1rem;
+    color: beige;
+    margin-top: -.5rem;
+    margin-bottom: -.4rem;
+}
+
+.subtitleid {
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: -3.5rem;
+    color: beige;
+}
+.flag {
+    margin-top: -1rem;
+    border-radius: 1rem;
+}
+
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardActivity {
+    display: block;
+   width: 10rem;
+   margin: 10px;
+   padding: 10px;
+   background-color: #19381F;
+   color: beige;
+   border: 2x solid beige;
+   border-radius: 1rem;
+   .pAct {
+    color: beige;
+    font-family: 'Albert Sans', sans-serif;
+   }
+}
+
+.p {
+    font-family: 'Albert Sans', sans-serif;
+    color: beige;
+}
+
+.textAlter {
+    background-color: #19381F;
+    opacity: 85%;
+    border-radius: 1rem;
+    border: 1px solid beige;
+    padding: 1rem;
+    text-align: center;
+
+    .btnTextAlter {
+        border-radius: .5rem;
+        padding: .2rem;
+        border-color: RGBA(255, 255, 255, 1);
+        font-size: 1rem;
+        color: beige;
+        background-color: #19381F;
+        opacity: 85%;
+        font-family: 'Albert Sans', sans-serif;
+    }
+}
+
+.hr {
+    border: .1rem solid #19381F;
+    width: 70%;
+}
+    

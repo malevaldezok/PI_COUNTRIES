@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+
+.containerCard {
+    opacity: 90%;
+    width:15rem;
+    border: #EBEDE2 3px solid;
+    border-radius: 3rem;
+    background-color: #EBEDE2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center
+}
+
+.flag {
+    border: #EBEDE2 3px solid ;
+    border-radius: 3rem;
+    width: 10rem;
+}
+
+.subtitleh2 {
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+    color: #19381F;
+}
+.subtitleh4 {
+    text-align: center;
+    margin: 0rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: #19381F;
+}
+.buttonDetail {
+    border-radius: .5rem;
+    padding: .2rem;
+    border-color: RGBA(255,255,255,1);
+    font-size: 1rem;
+    background-color: #19381F;
+    color: beige;
+    padding: .3rem;
+    font-family: 'Albert Sans', sans-serif;;
+}

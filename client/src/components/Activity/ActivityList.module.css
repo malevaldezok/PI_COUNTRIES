@@ -1,0 +1,57 @@
+.containergral {
+    background-color: #19381F;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.containerActivityList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardAct {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-color: #19381F;
+    border-radius: 1rem;
+    width: 10rem;
+    margin: 1rem;
+    border: 1px solid beige;
+}
+
+.subtitleh2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+    opacity: 80%;
+    margin-top: 3rem;
+    background-color: #19381F;
+    opacity: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.p {
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: rem;
+    margin-bottom: -.2rem;
+    color: beige;
+}
+
+.li {
+    text-align: center;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.hr {
+    border: .1rem solid beige;
+    width: 80%;
+    margin-top: -1.5rem;
+    }
