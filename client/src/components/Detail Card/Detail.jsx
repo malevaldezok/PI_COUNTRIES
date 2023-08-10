@@ -25,20 +25,25 @@ const Detail = () => {
         <button className={styles.btnback} > Back to home 🏠︎  </button>
         </Link>
         <div className={styles.cardDetail} >
+            <img className={styles.flag} src={countryDetail.flag} alt={countryDetail.name} />
+            <div className={styles.text}>
             <h1 className={styles.subtitleh1} > {countryDetail.name} </h1>
             <h4 className={styles.subtitleid} > {countryDetail.id} </h4>
-            <img className={styles.flag} src={countryDetail.flag} alt={countryDetail.name} />
             <h4 className={styles.subtitleh4}>  🌎 Continent: {countryDetail.continent} </h4>
             <h4 className={styles.subtitleh4}>Subregion: {countryDetail.subregion} </h4>
             <h4 className={styles.subtitleh4}>Capital: {countryDetail.capital} </h4>
             <h4 className={styles.subtitleh4}>Area: {countryDetail.area} </h4>
             <h4 className={styles.subtitleh4}>Population: {countryDetail.population} </h4>
+            </div>
         </div>
         <div>
         <hr className={styles.hr} />
 
         </div>
-            <h2 className={styles.subtitleh2} > Activities for this country: </h2>
+        <div className={styles.containerAct}>
+        <div className={styles.containerSub} >
+         Activities for this country: 
+        </div>
             <ul className={styles.ul} >
                 {activities?.length > 0 ? activities?.map((det, index) => {
                     return (
@@ -62,6 +67,8 @@ const Detail = () => {
                 
             }
             </ul>
+        </div>
+            
         </div>
     )
 } 

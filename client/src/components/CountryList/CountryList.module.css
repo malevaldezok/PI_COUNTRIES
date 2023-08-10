@@ -2,9 +2,9 @@
 
 .cardCountries {
     display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-  justify-items: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    justify-items: center;
 }
 
 .c {
@@ -25,11 +25,12 @@
   align-items: flex-end;
   align-content: flex-end;
   padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 .pageInfo {
   font-family: 'Albert Sans', sans-serif;
-  background-color: #19381F;
+  background-color: #34312D;
   opacity: 95%;
   font-weight: bold;
   color:beige;
@@ -39,10 +40,25 @@
 }
 
 .buttonPage {
-  background-color: #19381F;
+  background-color: #34312D;
   opacity: 88%;
   border-radius: 1rem;
   color: beige;
   border: .1rem solid beige;
   font-size: 1rem;
+}
+
+.buttonPage:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cardCountries {
+    grid-template-columns: 1fr;
+  }
+  .containerHome {
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }

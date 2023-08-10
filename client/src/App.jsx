@@ -8,7 +8,7 @@ import FormActivity from './components/Activity/FormActivity';
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className={`${styles.app} ${styles.airplaneContainer}`} >
     <Routes>
       <Route path='/' element={<Landing />} />
       <Route path='/countries' element={<Home/>}/>

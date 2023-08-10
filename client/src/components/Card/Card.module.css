@@ -1,43 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
 
-
 .containerCard {
-    opacity: 90%;
-    width:15rem;
-    border: #EBEDE2 3px solid;
-    border-radius: 3rem;
-    background-color: #EBEDE2;
+    margin: .5rem;
+    max-width: 20rem;
+    background-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
+
+.containerCard:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+.imageCard {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.text {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
-    align-items: center
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: -3rem;
 }
 
-.flag {
-    border: #EBEDE2 3px solid ;
-    border-radius: 3rem;
-    width: 10rem;
+.h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
 }
 
-.subtitleh2 {
-    text-align: center;
-    font-family: 'Albert Sans', sans-serif;
-    color: #19381F;
+.p {
+    font-weight: normal;
+    color: white;
+    margin-top: -2rem;
 }
-.subtitleh4 {
-    text-align: center;
-    margin: 0rem;
-    font-family: 'Albert Sans', sans-serif;
-    color: #19381F;
+
+.containerButton {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
 }
-.buttonDetail {
-    border-radius: .5rem;
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #7E7F83;
+    border-radius: 1rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(186, 174, 174)
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #93c5fd;
+}
+
+.svg {
+    display: flex;
+    width: 1.5rem;
     padding: .2rem;
-    border-color: RGBA(255,255,255,1);
-    font-size: 1rem;
-    background-color: #19381F;
-    color: beige;
-    padding: .3rem;
-    font-family: 'Albert Sans', sans-serif;;
 }

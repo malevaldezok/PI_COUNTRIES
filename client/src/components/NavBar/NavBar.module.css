@@ -1,152 +1,201 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
 
-.containerNav {
-    width: 100%;
-    text-align: center;
+.nav {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #090909;
+  background: linear-gradient(180deg,#090909 15%, hsl(0, 0%, 200%) 200%);
+  padding-top: 1rem;
+  color: var(--neutral-500);
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.6);
+  transition: color 0.15s ease-in-out;
 }
-
-.hr {
-  border: .1rem solid #19381F;
-  width: 80%;
-  margin-top: -1.5rem;
+.nav:hover {
+  color: var(--neutral-700);
+}
+.nav:focus {
+  color: var(--neutral-700);
+}
+@media (min-width: 1024px) {
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-
-  .divh1 {
-    display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  align-content: flex-start;
-  margin-top: -1.5rem;
 }
 
-.barraNav {
+.flexContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  height: 5rem;
+}
+
+.imageNav{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
     align-items: flex-start;
-    margin-bottom: 1rem 
+    align-content: flex-start;
+    width: 12rem;
+    margin-top: -4.3rem;
+    margin-left: -2.5rem;
 }
-
-.subtitleh1 {
-    width:fit-content;
-    color: #EEE82C ;
-    border-radius: 1rem;
-    padding: .2rem;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Albert Sans', sans-serif;
-    background-color: #19381F;
+.inputContainer {
+  display: flex;
+  flex: .4;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  color: white;
 }
-
-.sortBy {
-    .p {
-    font-size: 1.5rem;
-    font-family: 'Albert Sans', sans-serif;;
-    color: beige;
-    font-weight: bolder;
-    background-color: #19381F;
-    opacity: 80%;
-    border-radius: 1rem;
-    border: 1px solid beige;
-    width: 6rem;
-    margin-left: 7.5rem;
-    padding: .5rem;
-    align-items: center;
-}
-.select {
-  margin-top: -1rem;
-    margin-left: 6rem;
-    font-size: 1rem;
-    padding: .5rem;
-    border-radius: 1rem;
-    font-family: 'Albert Sans', sans-serif;;
+@media (max-width: 768px) {
+  .inputContainer {
+    flex: 0.9;
   }
 }
 
-  
-  .filter .p {
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    font-family: 'Albert Sans', sans-serif;
-    color: beige;
-    font-weight: bolder;
-    background-color: #19381F;
-    border: 1px solid beige;
-    opacity: 80%;
-    border-radius: 1rem;
-    width: 15rem;
-    margin-left: 3rem;
-    padding: .5rem;
-    align-items: center;
-  }
-  
-  .filter .select {
-    background-color: rgb(245, 245, 157);
-    font-size: 1rem;
-    border-radius: 1rem;
-    margin-top: -1rem;
-    padding: .5rem;
-    font-family: 'Albert Sans', sans-serif;;
-    margin-left: 2.2rem;
-  }
-  
-  .act {
-    margin-top: .5rem;
-    padding: 3rem;
-  }
-  
-  .act .labelAct {
-    color: beige;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Albert Sans', sans-serif;;
-    padding: 8rem;
-  }
-  
-  .act .buttonSearch {
-    border-radius: .5rem;
-    padding: .2rem;
-    border: 2px solid beige;
-    color: beige;
-    background-color: #19381F;
-    font-size: 1rem;
-    opacity: 80%;
-    font-family: 'Albert Sans', sans-serif;;
-  }
-  
-  .act .input {
-    width: 20rem;
-    padding: .2rem;
-    font-family: 'Albert Sans', sans-serif;;
-    border-radius: .5rem;
-    font-size: 1rem;
-    border: 1px solid #19381F;
-    margin-top: 1.5rem;
-  }
+.input {
+  position: relative;
+  margin: 0;
+  display: block;
+  width: 1px;
+  min-width: 0;
+  flex: auto;
+  border-radius: .5rem;
+  border: 2px solid white;
+  background: transparent;
+  background-clip: padding-box;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.6;
+  color: white;
+  outline: none;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
 
-  .activities {
-    padding-top: 4.8rem;
-    .button {
-        border-radius: 1rem;
-    padding: .5rem;
-    font-family: 'Albert Sans', sans-serif;
-    border: 1px solid beige;
-    font-size: 1.5rem;
-    color: beige;
-    background-color: #19381F;
-    opacity: 80%;
-    }
-  }
+.input:focus {
+  z-index: 3;
+  border: 2px solid var(--primary);
+  color: var(--neutral-700);
+  box-shadow: inset 0 0 0 1px rgba(59, 113, 202, 0.7);
+  outline: none;
+}
 
-  .p{
-    font-family: 'Albert Sans', sans-serif;
-    border-radius: .5rem;
-    background-color: #19381F;
-    opacity: 90%;
-    color: beige;
-  }
+.input::placeholder {
+  color: gray;
+  opacity: 50%;
+}
 
+.input:focus {
+  border: 2px solid var(--primary);
+}
+
+.inputGroupText {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: var(--neutral-50);
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.svgIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.btnSearch {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.btnSearch:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.dropdownIcon {
+  cursor: pointer;
+  display: flex;
+  padding-bottom: 2.5rem;
+  color: white;
+  opacity: 50%;
+  width: 3rem;
+}
+
+.dropdownIcon:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.dropdown {
+  position: absolute;
+  top: 80%;
+  right: 4%;
+  background-color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dropdown.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.dropdownList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownItem {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+  color: white;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.dropdownItem:hover {
+  font-weight: bold;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.dropdownSublist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.open {
+  opacity: 1;
+  transform: translateY(0);
+}

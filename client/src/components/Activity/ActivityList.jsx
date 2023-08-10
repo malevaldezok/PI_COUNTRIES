@@ -18,6 +18,7 @@ const ActivityList = ({activities}) => {
             { activities && activities?.map(activity => (
                 <div className={styles.cardAct} key={activity.id}>
                     <h3 className={styles.subtitleh3} > {activity.name} </h3>
+                    <hr className={styles.hrAct} />
                     <p className={styles.p}>Difficulty: {activity.difficulty} </p>
                     <p className={styles.p}>Duration: {activity.duration} </p>
                     <p className={styles.p}>Season: {activity.season} </p>

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&display=swap');
 
+
 .containerDetail {
-    background-image: url('https://images7.alphacoders.com/987/thumb-1920-987066.jpg');
-    background-size: cover contain;
+    background-image: url("https://64.media.tumblr.com/6fa9ad9f859cf058bfe19a2536b0aa11/tumblr_pkv647vWBM1xp1j77o1_540.gif"); 
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
     display: flex;
@@ -18,112 +19,129 @@
     border-radius: .5rem;
     font-size: 1rem;
     font-family: 'Albert Sans', sans-serif;
-    background-color: #19381F;
+    background-color: black;
+    padding: .5rem;
+    margin-top: 1.5rem;
     color: beige;
     border: 1px solid beige;
     opacity: 80%;
 }
 
+.btnback:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: darkgray;
+    font-weight: bold;
+    color: black;
+}
+
 .cardDetail {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
-    align-content: normal;
-    gap: 1rem;
-    padding-top: 1rem;
-    background-color: #19381F;
-    opacity: 85%;
-    border-radius: 1rem;
-    border: 2px solid beige;
-    width: fit-content;
-    padding: 1rem;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: black;
+    box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.7), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid white;
+
+}
+
+.flag {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: -5rem;
 }
 
 .subtitleh1 {
-    font-family: 'Albert Sans', sans-serif;;
-    font-size: 5rem;
-    color:beige;
-    margin-top: -1rem;
-}
-.subtitleh2 {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--neutral-800);
     font-family: 'Albert Sans', sans-serif;
-    background-color: #19381F;
-    opacity: 85%;
-    border: 1px solid beige;
-    color: beige;
-    border-radius: 1rem;
-    padding: 1rem;
-}
-
-.subtitleh4 {
-    font-family: 'Albert Sans', sans-serif;
-    font-size: 1rem;
-    color: beige;
-    margin-top: -.5rem;
-    margin-bottom: -.4rem;
 }
 
 .subtitleid {
+    font-size: .9rem;
     font-family: 'Albert Sans', sans-serif;
-    margin-top: -3.5rem;
-    color: beige;
-}
-.flag {
     margin-top: -1rem;
-    border-radius: 1rem;
 }
 
-.containerCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.cardActivity {
-    display: block;
-   width: 10rem;
-   margin: 10px;
-   padding: 10px;
-   background-color: #19381F;
-   color: beige;
-   border: 2x solid beige;
-   border-radius: 1rem;
-   .pAct {
-    color: beige;
+.subtitleh4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-top:-.1rem;
     font-family: 'Albert Sans', sans-serif;
-   }
-}
-
-.p {
-    font-family: 'Albert Sans', sans-serif;
-    color: beige;
-}
-
-.textAlter {
-    background-color: #19381F;
-    opacity: 85%;
-    border-radius: 1rem;
-    border: 1px solid beige;
-    padding: 1rem;
-    text-align: center;
-
-    .btnTextAlter {
-        border-radius: .5rem;
-        padding: .2rem;
-        border-color: RGBA(255, 255, 255, 1);
-        font-size: 1rem;
-        color: beige;
-        background-color: #19381F;
-        opacity: 85%;
-        font-family: 'Albert Sans', sans-serif;
-    }
 }
 
 .hr {
-    border: .1rem solid #19381F;
-    width: 70%;
+    color: white;
+    border: 1px solid white;
 }
+
+.containerAct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: black;
+    border: 1px solid white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04); /* Ajusta según tus necesidades */
+}
+
+
+.containerSub {
+color: wheat;
+border-bottom: 2px solid var(--neutral-100);
+padding: 0.75rem 1.5rem;
+font-size:xx-large;
+}
+
+.containerCard {
+    border: 1px solid white;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.textAlter {
+    color: white;
+}
+
+.btnTextAlter {
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size:small;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    background-color: black;
     
+}
+
+.btnTextAlter:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: darkgray;
+    font-weight: bold;
+    color: black;
+}
+
+
+

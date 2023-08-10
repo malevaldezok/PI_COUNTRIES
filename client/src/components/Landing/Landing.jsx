@@ -1,18 +1,21 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './Landing.module.css'
+import image from "../../../public/logolanding.png"
 
 const Landing = () => {
     return (
         <div className={styles.containerLanding} >
-            <div className={styles.containerh1}>
-                <h1 className={styles.subtitleh1}>Do you want to know <br/> a little more about the world? </h1>
-                <h3 className={styles.subtitleh3}>Individual proyect Henry</h3>
+            <div className={styles.container}>
+                <div className={styles.flexContainer}>
+                <div className={styles.logoContainer}>
+                    <img src={image} className={styles.imageLanding} />
+                    <Link to="/countries" className={styles.button}> Explore </Link>
+                </div>
+                </div>
             </div>
-            <div className={styles.containerLink}>
-            <NavLink to='/countries' style={({isActive}) => ({color: isActive ? '#FBAF00' : 'black'})} >
-                <h2 className={styles.subtitleh2} >Explore ➔ </h2>
-            </NavLink>
+            <div className={styles.footer}>
+                <p className={styles.footerText}>Proyecto individual | Malena Valdez | Henry 2023</p>
             </div>
         </div>
       
